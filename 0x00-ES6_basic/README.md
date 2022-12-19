@@ -1,4 +1,4 @@
-#  0x00. ES6 Basic
+# 0x00. ES6 Basics
 * What ES6 is
 * New features introduced in ES6
 * The difference between a constant and a variable
