@@ -1,10 +1,9 @@
-export default function getResponseFromAPI(state) {
+export default function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
-    /* eslint-disable no-constant-condition */
-    if (state) {
-      resolve({status: 200,body: 'Success'});
+    if (success) {
+      resolve({ status: 200, body: 'Success' });
     } else {
-      reject(new Error('The fake API is not working currently'));
+      reject(Error('The fake API is not working currently'));
     }
   });
 }
