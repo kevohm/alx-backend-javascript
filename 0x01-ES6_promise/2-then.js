@@ -1,4 +1,4 @@
-export default function getResponseFromAPI(state) {
+export default function handleResponseFromAPI(state) {
   return new Promise((resolve, reject) => {
     /* eslint-disable no-constant-condition */
     if (state === {status: 200,body: 'Success'}) {
